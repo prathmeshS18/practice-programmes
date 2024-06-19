@@ -68,11 +68,14 @@
 
 # q2
 
-n = int(input("Enter No: "))
-fact =  1
-for i in range(1,n+1):
-        fact=fact*i
-print("The factorial of no is",fact)
+# n = int(input("Enter No: "))
+# fact =  1
+# for i in range(1,n+1):
+#         fact=fact*i
+# print("The factorial of no is",fact)
 
-
-
+x = int(input("Enter No: "))
+idx = 1
+while idx <= 10:
+    print(idx*x)
+    idx += 1
