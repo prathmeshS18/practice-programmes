@@ -38,7 +38,9 @@ while True:
        print(x/y)
     
     z = next_calculation=input("want to do next calculation?(yes/no)")
-    if next_calculation == "no":
+    if next_calculation == "yes":
+        continue
+    elif next_calculation == "no":
         break
 
     else:
